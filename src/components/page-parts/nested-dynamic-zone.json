@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_parts_nested_dynamic_zones",
+  "info": {
+    "displayName": "Nested Dynamic Zone"
+  },
+  "options": {},
+  "attributes": {
+    "dynamic_zone": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::dynamic-zone.dynamic-zone"
+    }
+  }
+}

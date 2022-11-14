@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_parts_item_lists",
+  "info": {
+    "displayName": "Item List",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "displayName": "_list-item",
+      "type": "component",
+      "repeatable": true,
+      "component": "parts.list-item",
+      "required": true,
+      "min": 3
+    },
+    "heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "parts.heading"
+    }
+  }
+}

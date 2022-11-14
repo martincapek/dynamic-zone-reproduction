@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_parts_headings",
+  "info": {
+    "displayName": "_heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "h1",
+        "h2",
+        "h3"
+      ],
+      "default": "h2",
+      "required": true
+    },
+    "as": {
+      "type": "enumeration",
+      "enum": [
+        "h1",
+        "h2",
+        "h3"
+      ],
+      "default": "h2",
+      "required": true
+    },
+    "heading": {
+      "type": "string"
+    }
+  }
+}
