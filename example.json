@@ -1,0 +1,73 @@
+{
+    "id": 1,
+    "attributes": {
+      "heading": "test 1",
+      "createdAt": "2022-11-14T08:45:36.155Z",
+      "updatedAt": "2022-11-14T08:47:05.091Z",
+      "publishedAt": "2022-11-14T08:47:05.090Z",
+      "content": [
+        {
+          "id": 2,
+          "__component": "page-parts.nested-dynamic-zone",
+          "dynamic_zone": {
+            "data": {
+              "id": 2,
+              "attributes": {
+                "internalName": "test 2",
+                "createdAt": "2022-11-14T08:45:45.753Z",
+                "updatedAt": "2022-11-14T08:45:50.455Z",
+                "publishedAt": "2022-11-14T08:45:50.453Z",
+                "content": [
+                  {
+                    "id": 1,
+                    "__component": "page-parts.nested-dynamic-zone",
+                    "dynamic_zone": {
+                      "data": {
+                        "id": 1,
+                        "attributes": {
+                          "internalName": null,
+                          "createdAt": "2022-11-14T08:41:37.951Z",
+                          "updatedAt": "2022-11-14T08:45:31.107Z",
+                          "publishedAt": "2022-11-14T08:45:31.106Z",
+                          "content": [
+                            {
+                              "id": 1,
+                              "__component": "page-parts.item-list",
+                              "items": [
+                                {
+                                  "id": 1,
+                                  "heading": "test",
+                                  "icon": {
+                                    "data": null
+                                  }
+                                },
+                                {
+                                  "id": 2,
+                                  "heading": "test",
+                                  "icon": {
+                                    "data": null
+                                  }
+                                },
+                                {
+                                  "id": 3,
+                                  "heading": "test",
+                                  "icon": {
+                                    "data": null
+                                  }
+                                }
+                              ],
+                              "heading": null
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
